@@ -3,7 +3,7 @@
 // CONDICIONAIS:
 
 // if | elseif | else:
-$num = 10;
+$num = 5;
 $resposta = '';
 
 if ($num < 5) {
@@ -14,7 +14,7 @@ if ($num < 5) {
   $resposta = "Número é maior que 5";
 }
 
-$nomeSobrenome = 'Não sei';
+$nomeSobrenome = 'Viviane Rodrigues';
 $resultado = '';
 
 if ($nomeSobrenome === 'Andrew Gomes') {
@@ -26,7 +26,7 @@ if ($nomeSobrenome === 'Andrew Gomes') {
 }
 
 // switch | case:
-$paisOrigem = 'Russia';
+$paisOrigem = 'Brasil';
 $nacionalidade = '';
 
 switch ($paisOrigem) {
@@ -47,7 +47,7 @@ switch ($paisOrigem) {
     break;
 }
 
-$linguagem = 'JavaScript';
+$linguagem = 'Python';
 $framework = '';
 
 switch ($linguagem) {

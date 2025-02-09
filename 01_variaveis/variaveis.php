@@ -2,11 +2,13 @@
 
 // VARIÁVEIS:
 
-$variavel = 'Uma variável qualquer';
+$variavel = 'Variável qualquer';
 
-$outraVariavel = 'Estou aqui!!!';
+$outraVariavel = 'Outra variável';
 
 
 // CONSTANTES:
 
-define('CONSTANTE', 'Valor não muda');
+define('CONSTANTE', 'Valor não pode ser alterado');
+
+const OUTRA_CONSTANTE = 'Definida com const';

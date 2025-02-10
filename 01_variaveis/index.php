@@ -38,6 +38,13 @@ include_once './variaveis.php';
       <p><?= CONSTANTE ?> | <?= var_dump(CONSTANTE) ?></p>
       <p><?= OUTRA_CONSTANTE ?> | <?= var_dump(OUTRA_CONSTANTE) ?></p>
     </section>
+    <hr>
+    <section>
+      <h2>Verificar se a variável é Null</h2>
+
+      <p>Variável de teste: <?= var_dump($teste) ?></p>
+      <p>Verificação: <?= $verificar ?></p>
+    </section>
   </main>
 </body>
 

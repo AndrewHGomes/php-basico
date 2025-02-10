@@ -2,51 +2,40 @@
 
 // REPETIÇÕES:
 
-//While:
+// For:
+
+$loopFor = '';
+
+for ($i = 0; $i <= 5; $i++) {
+  $loopFor .= "$i, ";
+}
+
+// While:
+
+$loopWhile = '';
 $w = 0;
-echo "<strong>Loop while:</strong>";
 
-echo "<br/>";
-
-while ($w <= 3) {
-  echo "<span>$w </span>";
+while ($w <= 5) {
+  $loopWhile .= "$w, ";
   $w++;
 }
 
-echo "<br/>";
-
 // Do While:
-$dw = 0;
-echo "<strong>Loop do while:</strong>";
 
-echo "<br/>";
+$loopDoWhile = '';
+$dw = 0;
 
 do {
-  echo " $dw - ";
+  $loopDoWhile .= "$dw, ";
   $dw++;
-} while ($dw <= 3);
-
-echo "<br/>";
-
-// For:
-echo "<strong>Loop do for:</strong>";
-
-echo "<br/>";
-
-for ($i = 0; $i <= 3; $i++) {
-  echo " $i - ";
-}
-
-echo "<br/>";
+} while ($dw <= 5);
 
 // Foreach:
-$nomes = array("Andrew", "Viviane", "Janico", "Cleusa");
-echo "<strong>Loop foreach:</strong>";
 
-echo "<br/>";
+$nomes = ['Andrew', 'Viviane', 'Janico', 'Cleusa'];
+
+$loopForEach = '';
 
 foreach ($nomes as $key => $nome) {
-  echo $key + 1 . "º: " . $nome . " | ";
+  $loopForEach .= "$key => $nome | ";
 }
-
-echo "<br/>";

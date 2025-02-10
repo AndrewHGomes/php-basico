@@ -68,6 +68,13 @@ include_once './arrays.php'
       <p><?= var_dump($numeros) ?></p>
       <p><?= var_dump($pessoa) ?></p>
     </section>
+    <hr>
+    <section>
+      <h2>Verificar se array é Null</h2>
+
+      <p>Valor do array: <?= var_dump($teste) ?></p>
+      <p>Verificação: <?= $verificar ?></p>
+    </section>
   </main>
 </body>
 

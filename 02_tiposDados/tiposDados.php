@@ -19,6 +19,9 @@ $objeto = new Classe;
 $nulo = null;
 
 // Mudanças de tipos:
-$variavelParaTestar = 'algum valor';
 
-$mudarTipo = (bool) $variavelParaTestar;
+$teste = ['nome1' => 'Andrew', 'nome2' => 'Viviane', 'nome3' => 'Janico'];
+
+$castExplicito = (object) $teste;
+
+$castFuncao = intval($teste);

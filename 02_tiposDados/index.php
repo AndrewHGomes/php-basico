@@ -57,6 +57,14 @@ include_once './tiposDados.php';
       <p>echo de um valor nulo: <?= $nulo ?></p>
       <p>var_dump de um valor nulo: <?= var_dump($nulo) ?></p>
     </section>
+    <hr>
+    <section>
+      <h2>Conversões de tipo</h2>
+
+      <p>Variável: <?= var_dump($teste) ?></p>
+      <p>Conversão explícita: <?= var_dump($castExplicito) ?></p>
+      <p>Conversão com função: <?= var_dump($castFuncao) ?></p>
+    </section>
   </main>
 </body>
 

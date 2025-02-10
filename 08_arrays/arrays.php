@@ -1,14 +1,12 @@
 <?php
 
 // ARRAYS:
-$meuArray = [1, 2, 3, 4];
+$numeros = [1, 2, 3, 4];
 
-$indice2 = $meuArray[2];
+$indice2 = $numeros[2];
 
 // Associativo:
 
-$associativo = ['nome' => 'Andrew', 'sobrenome' => 'Gomes', 'idade' => 36];
+$pessoa = ['nome' => 'Andrew', 'sobrenome' => 'Gomes', 'idade' => 36];
 
-$indiceIdade = $associativo['idade'];
-
-// Métodos:
+$indiceIdade = $pessoa['idade'];

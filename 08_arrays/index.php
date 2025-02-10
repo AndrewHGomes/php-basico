@@ -20,43 +20,53 @@ include_once './arrays.php'
     <section>
       <h2>Criando um array</h2>
 
-      <p>Lista: <?= var_dump($meuArray) ?> | Tipo: <?= gettype($meuArray) ?></p>
+      <p>Lista: <?= var_dump($numeros) ?> | Tipo: <?= gettype($numeros) ?></p>
 
       <p>Índice 2: <?= $indice2 ?></p>
 
       <?php
-      $meuArray[4] = 12;
+      $numeros[4] = 12;
       ?>
-      <p>Inserindo elemento: <?= var_dump($meuArray) ?></p>
+      <p>Inserindo elemento: <?= var_dump($numeros) ?></p>
+
+      <?php
+      $mudandoNumeros = $numeros[0] = 100;
+      ?>
+      <p>Mudando um elemento: <?= var_dump($numeros) ?></p>
     </section>
     <hr>
     <section>
       <h2>Associativo</h2>
 
-      <p>Lista: <?= var_dump($associativo) ?> | Tipo: <?= gettype($associativo) ?></p>
+      <p>Lista: <?= var_dump($pessoa) ?> | Tipo: <?= gettype($pessoa) ?></p>
 
       <p>Índice idade: <?= $indiceIdade ?></p>
 
       <?php
-      $associativo['profissao'] = 'Desenvolvedor Web';
+      $pessoa['profissao'] = 'Desenvolvedor Web';
       ?>
-      <p>Inserindo elemento: <?= var_dump($associativo) ?></p>
+      <p>Inserindo elemento: <?= var_dump($pessoa) ?></p>
+
+      <?php
+      $mudandoPessoa = $pessoa['nome'] = 'Henrique';
+      ?>
+      <p>Mudando um elemento: <?= var_dump($pessoa) ?></p>
     </section>
     <hr>
     <section>
       <h2>Métodos</h2>
 
       <?php
-      $adicionarFim = array_push($meuArray, 15);
-      $adicionarInicio = array_unshift($associativo, 'teste');
-      $quantidadeMeuArray = count($meuArray);
-      $quantidadeAssociativo = count($associativo);
+      $adicionarFim = array_push($numeros, 15);
+      $adicionarInicio = array_unshift($pessoa, 'teste');
+      $quantidadeNumeros = count($numeros);
+      $quantidadePessoa = count($pessoa);
       ?>
-      <p>Quantidade de elementos de $meuArray: <?= $quantidadeMeuArray ?></p>
-      <p>Quantidade de elementos de $associativo: <?= $quantidadeAssociativo ?></p>
+      <p>Quantidade de elementos de $numeros: <?= $quantidadeNumeros ?></p>
+      <p>Quantidade de elementos de $pessoa: <?= $quantidadePessoa ?></p>
 
-      <p><?= var_dump($meuArray) ?></p>
-      <p><?= var_dump($associativo) ?></p>
+      <p><?= var_dump($numeros) ?></p>
+      <p><?= var_dump($pessoa) ?></p>
     </section>
   </main>
 </body>

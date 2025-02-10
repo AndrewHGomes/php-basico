@@ -46,6 +46,12 @@ include_once './booleans.php';
       ?>
       <p>Variável atribuída com array vazio: <?= var_dump($text) ?> | <?= !!$text ?> | <?= var_dump(!!$text) ?></p>
     </section>
+    <hr>
+    <section>
+      <h2>Verificação</h2>
+      <p>Resposta: <?= var_dump($resposta) ?></p>
+      <p>Resposta é verdadeira? <?= $verificacao ?></p>
+    </section>
   </main>
 </body>
 

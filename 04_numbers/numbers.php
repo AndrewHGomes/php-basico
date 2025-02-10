@@ -1,14 +1,24 @@
 <?php
 // NUMBERS:
 
-$numFloat = 15.5;
+// Integer:
 
-$numInt = 34;
+$inteiro1 = 34;
+$inteiro2 = -50;
 
-$falseNum = '100';
+// Float/Double:
 
-$verificaSeENumero = is_numeric($numFloat) ? 'True' : 'False';
+$real1 = -15.5;
+$real2 = 70.7;
 
-$arredondarParaCima = ceil($numFloat);
+// String/Number
 
-$arredondarParaBaixo = floor($numFloat);
+$strNum = '100';
+
+// Métodos:
+
+$verificarNum = is_numeric($strNum) ? 'True' : 'False';
+
+$arredondarParaCima = ceil($real2);
+
+$arredondarParaBaixo = floor($real2);

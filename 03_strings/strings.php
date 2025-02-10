@@ -8,11 +8,13 @@ $umaString = 'Valor que estiver entre aspas duplas ou simples é string';
 
 $texto = 'A variável $texto recebeu este valor';
 
-$aspas = 'unindo';
+$aspas = 'concatenando';
 
 $concatenar = 'Estou ' . $aspas . ' texto e variável com aspas SIMPLES';
 
 // Interpolação:
+
+$aspas = 'interpolando';
 
 $interpolar = "Estou $aspas texto e variável com aspas DUPLAS";
 
@@ -20,4 +22,5 @@ $interpolar = "Estou $aspas texto e variável com aspas DUPLAS";
 
 $contarCaracteres = mb_strlen($umaString);
 $substring = mb_substr($umaString, 18);
-$contem = str_contains($umaString, 'entre'); // a partir da versão 8;
+$contem = mb_strpos($umaString, 'entre');
+// $contem = str_contains($umaString, 'entre'); // a partir da versão 8;

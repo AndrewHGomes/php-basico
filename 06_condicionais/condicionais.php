@@ -47,7 +47,7 @@ switch ($paisOrigem) {
     break;
 }
 
-$linguagem = 'Python';
+$linguagem = 'JavaScript';
 $framework = '';
 
 switch ($linguagem) {

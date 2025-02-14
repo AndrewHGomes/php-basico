@@ -42,6 +42,14 @@ include_once './condicionais.php';
 
       <p>Linguagem de programação: <?= $linguagem ?></p>
       <p>O que acha sobre ela: <?= $saberLinguagem ?></p>
+
+      <p>Opção: <?= $opcao ?> | Situação: <?= $situacao ?></p>
+    </section>
+    <hr>
+    <section>
+      <h2>Match</h2>
+
+      <p>Escolha: <?= $escolha ?> | Livro: <?= $livro ?></p>
     </section>
   </main>
 </body>

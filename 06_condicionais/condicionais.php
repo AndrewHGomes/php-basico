@@ -70,3 +70,17 @@ switch ($linguagem) {
 
 // Ternário:
 $saberLinguagem = $linguagem === 'JavaScript' ? 'Amo JS' : 'Fazer o que, né?';
+
+$opcao = 1;
+
+$situacao = $opcao === 1 ? 'Ligado' : 'Desligado';
+
+// Match:
+$escolha = 4;
+
+$livro = match ($escolha) {
+  1 => 'As Seis Lições',
+  2 => 'O Mínimo Sobre Economia',
+  3 => 'A Anatomia do Estado',
+  default => 'Não escolheu nenhum dos 3 livros acima'
+};

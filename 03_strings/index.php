@@ -47,9 +47,21 @@ include_once './strings.php';
 
       <p>Contagem de caracteres de $umaString: <?= $contarCaracteres ?> caracteres</p>
 
+      <p>Elemento por índice: <?= $elementoPorIndice ?></p>
+
       <p>Substring/parte de uma string: <?= $substring ?></p>
 
       <p>Se a string tem uma parte específica: <?= $contem ?> | <?= $contem ? 'True' : 'False' ?></p>
+
+      <p>Letras maiúsculas: <?= $maiusculas ?></p>
+
+      <p>Letras minúsculas: <?= $minusculas ?></p>
+
+      <p>Trocar parte da string: <?= $trocar ?></p>
+
+      <!-- <p>Começa com 'Valor'? <?= $comecaCom ?></p> -->
+
+      <!-- <p>Termina com 'String'? <?= $terminaCom ?></p> -->
     </section>
   </main>
 </body>

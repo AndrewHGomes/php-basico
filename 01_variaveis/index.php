@@ -45,6 +45,17 @@ include_once './variaveis.php';
       <p>Variável de teste: <?= var_dump($teste) ?></p>
       <p>Verificação: <?= $verificar ?></p>
     </section>
+    <hr>
+    <section>
+      <h2>Variáveis são Case Sensitive</h2>
+
+      <p>Variável $SOBRENOME: <?= $SOBRENOME ?></p>
+      <p>Variável $sobrenome: <?= $sobrenome ?></p>
+
+      <p><?= $camelCase ?></p>
+      <p><?= $snake_case ?></p>
+      <p><?= $PascalCase ?></p>
+    </section>
   </main>
 </body>
 

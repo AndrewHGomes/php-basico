@@ -1,5 +1,5 @@
 <?php
-include_once './condicionais.php';
+include_once 'condicionais.php';
 ?>
 
 <!DOCTYPE html>

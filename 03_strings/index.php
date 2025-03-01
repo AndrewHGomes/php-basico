@@ -1,5 +1,5 @@
 <?php
-include_once './strings.php';
+include_once 'strings.php';
 ?>
 
 <!DOCTYPE html>

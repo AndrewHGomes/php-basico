@@ -1,5 +1,5 @@
 <?php
-include_once './arrays.php'
+include_once 'arrays.php'
 ?>
 
 <!DOCTYPE html>

@@ -14,10 +14,29 @@ function withParam($param)
   echo "Meu $param";
 }
 
+function fazerSoma($a, $b)
+{
+  echo "$a + $b = " . $a + $b;
+}
+
 // Parâmetro Padrão ou Opcional:
 function defaultParam($arg = 'valor padrão')
 {
   echo "Usando $arg";
+}
+
+function dizerNome($nome = 'Usuário')
+{
+  echo "Olá, $nome!";
+}
+
+// Variadic Parameter:
+
+function variosParametros(...$argumentos)
+{
+  foreach ($argumentos as $argumento) {
+    echo "$argumento ";
+  }
 }
 
 // Retorno:
@@ -64,3 +83,12 @@ function testeCallback($fn)
     return $fn('Andrew');
   }
 }
+
+// Arrow Functions:
+
+$minhaArrow = fn($parametro) => "Minha $parametro";
+
+$x = 10;
+$y = 20;
+
+$testArrowFunction = fn($z) => "Somando $x + $y + $z = " . $x + $y + $z;

@@ -16,7 +16,7 @@
     <h2>Alguns comandos básicos</h2>
 
     <?php
-    include_once './intro.php';
+    include_once 'intro.php';
     ?>
   </main>
 </body>

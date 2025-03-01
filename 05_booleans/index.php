@@ -1,5 +1,5 @@
 <?php
-include_once './booleans.php';
+include_once 'booleans.php';
 ?>
 
 <!DOCTYPE html>

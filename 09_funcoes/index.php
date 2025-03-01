@@ -1,5 +1,5 @@
 <?php
-include_once './funcoes.php';
+include_once 'funcoes.php';
 ?>
 
 <!DOCTYPE html>
@@ -28,14 +28,24 @@ include_once './funcoes.php';
 
       <p><?= withParam('argumento') ?></p>
       <p><?= withParam('parâmetro') ?></p>
+      <p><?= fazerSoma(5, 6) ?></p>
     </section>
     <hr>
     <section>
-      <h2>Parâmetro padrão</h2>
+      <h2>Parâmetro padrão | Parâmetro opcional</h2>
 
       <p><?= defaultParam('meu argumento') ?></p>
       <p><?= defaultParam('meu parâmetro') ?></p>
       <p><?= defaultParam() ?></p>
+      <p><?= dizerNome('Andrew') ?></p>
+      <p><?= dizerNome('Viviane') ?></p>
+      <p><?= dizerNome() ?></p>
+    </section>
+    <hr>
+    <section>
+      <h2>Variadic Parameter</h2>
+
+      <p><?= variosParametros('Eu', 'quero', 'passar', 'vários', 'argumentos') ?></p>
     </section>
     <hr>
     <section>
@@ -60,6 +70,13 @@ include_once './funcoes.php';
 
       <p><?= callback('Henrique') ?></p>
       <p><?= testeCallback('callback') ?></p>
+    </section>
+    <hr>
+    <section>
+      <h2>Arrow Functions</h2>
+
+      <p><?= $minhaArrow('arrow function') ?></p>
+      <p><?= $testArrowFunction(5) ?></p>
     </section>
   </main>
 </body>

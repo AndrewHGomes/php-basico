@@ -1,5 +1,5 @@
 <?php
-include_once './variaveis.php';
+include_once 'variaveis.php';
 ?>
 
 <!DOCTYPE html>

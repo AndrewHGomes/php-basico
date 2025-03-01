@@ -1,5 +1,5 @@
 <?php
-include_once './numbers.php';
+include_once 'numbers.php';
 ?>
 
 <!DOCTYPE html>

@@ -1,5 +1,5 @@
 <?php
-include_once './tiposDados.php';
+include_once 'tiposDados.php';
 ?>
 
 <!DOCTYPE html>

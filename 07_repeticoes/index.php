@@ -1,5 +1,5 @@
 <?php
-include_once './repeticoes.php';
+include_once 'repeticoes.php';
 ?>
 
 <!DOCTYPE html>

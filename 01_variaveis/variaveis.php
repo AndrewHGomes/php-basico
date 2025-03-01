@@ -18,3 +18,13 @@ const OUTRA_CONSTANTE = 'Definida com const';
 $teste = 'Andrew';
 
 $verificar = isset($teste) ? 'Existe' : 'Não existe';
+
+
+// Case:
+
+$SOBRENOME = 'Rodrigues';
+$sobrenome = 'Gomes';
+
+$camelCase = 'camelCase';
+$snake_case = 'snake_case';
+$PascalCase = 'PascalCase';

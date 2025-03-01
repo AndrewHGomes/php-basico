@@ -21,7 +21,9 @@ include_once 'strings.php';
       <h2>String</h2>
 
       <p><?= $umaString ?></p>
-      <p>Tipo de $umaString: <?= gettype($umaString) ?></p>
+      <p><?= $outraString ?></p>
+
+      <p>Tipo de $umaString: <?= gettype($umaString) ?> | Tipo de $outraString: <?= gettype($umaString) ?></p>
     </section>
     <hr>
     <section>
@@ -34,16 +36,28 @@ include_once 'strings.php';
       <p><?= $texto ?></p>
 
       <p><?= $concatenar ?></p>
+
+      <?php
+      $nomeCompleto = $nome . ' ' . $sobrenome;
+      ?>
+      <p>Concatenado entre aspas simples: <?= $nomeCompleto ?></p>
     </section>
     <hr>
     <section>
       <h2>Interpolação</h2>
 
       <p><?= $interpolar ?></p>
+
+      <?php
+      $nomeCompleto = "$nome $sobrenome";
+      ?>
+      <p>Interpolado entre aspas duplas: <?= $nomeCompleto ?></p>
     </section>
     <hr>
     <section>
       <h2>Métodos</h2>
+
+      <p>Caracter específico: <?= $especifico ?></p>
 
       <p>Contagem de caracteres de $umaString: <?= $contarCaracteres ?> caracteres</p>
 

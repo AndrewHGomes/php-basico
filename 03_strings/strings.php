@@ -12,6 +12,9 @@ $aspas = 'concatenando';
 
 $concatenar = 'Estou ' . $aspas . ' texto e variável com aspas SIMPLES';
 
+$nome = 'Andrew';
+$sobrenome = 'Gomes';
+
 // Interpolação:
 
 $aspas = 'interpolando';
@@ -20,6 +23,7 @@ $interpolar = "Estou $aspas texto e variável com aspas DUPLAS";
 
 // Métodos:
 
+$especifico = $umaString[28];
 $contarCaracteres = mb_strlen($umaString);
 
 $elementoPorIndice = $umaString[10];

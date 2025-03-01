@@ -40,13 +40,6 @@ include_once 'variaveis.php';
     </section>
     <hr>
     <section>
-      <h2>Verificar se a variável é Null</h2>
-
-      <p>Variável de teste: <?= var_dump($teste) ?></p>
-      <p>Verificação: <?= $verificar ?></p>
-    </section>
-    <hr>
-    <section>
       <h2>Variáveis são Case Sensitive</h2>
 
       <p>Variável $SOBRENOME: <?= $SOBRENOME ?></p>
@@ -55,6 +48,22 @@ include_once 'variaveis.php';
       <p><?= $camelCase ?></p>
       <p><?= $snake_case ?></p>
       <p><?= $PascalCase ?></p>
+    </section>
+    <hr>
+    <section>
+      <h2>Testes em variáveis (truthy e falsy)</h2>
+
+      <p><?= var_dump($teste1) ?></p>
+      <p><?= $testeIsset ?></p>
+
+      <p><?= var_dump($teste2) ?></p>
+      <p><?= $issetNull ?></p>
+
+      <p><?= var_dump($teste3) ?></p>
+      <p><?= $testeEmpty ?></p>
+
+      <p><?= var_dump($teste4) ?></p>
+      <p><?= $testeIsNull ?></p>
     </section>
   </main>
 </body>
